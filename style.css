@@ -1,0 +1,41 @@
+body {
+  color: deeppink;
+  background-color: aqua;
+  font-family: "Honk", system-ui;
+  
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+
+#gojixkong {
+  background-color: rgb(39, 143, 143);
+}
+
+#grandgoji {
+  background-color: rgb(128, 225, 183);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#characters li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
